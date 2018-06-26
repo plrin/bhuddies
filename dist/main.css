@@ -1,3 +1,27 @@
-h1 {
-  color: red; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: white; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.form {
+  text-align: center; }
+
+.form__input {
+  border: 1px solid #722f37;
+  background-color: #722f37;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  min-width: 200px; }
+
+.form__submit {
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  font-size: 16px; }
 
